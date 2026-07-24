@@ -1,7 +1,13 @@
 aid: checkout51
 name: checkout51
-description: checkout51 is a company surfaced as a portfolio company of slow-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Checkout 51 is a consumer cash-back rewards service, delivered as a free
+  mobile app and website, that lets shoppers earn money back on everyday grocery and
+  gas purchases. Members browse weekly offers, buy participating brands at any store,
+  then upload a photo of their receipt to claim cash back; balances are paid out by
+  check once they reach a $20 threshold. The company earns revenue from partner brands
+  that fund the offers. It was added to the API Evangelist network as a Slow Ventures
+  portfolio company; it operates a consumer app plus a partner/brands program, but
+  publishes no public developer API, SDKs, or specifications at this time.
 url: https://raw.githubusercontent.com/api-evangelist/checkout51/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,30 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.checkout51.com/shared/assets/img/themes/reskin/favicon.ico
 tags:
 - Company
+- Cash Back
+- Rewards
+- Grocery
+- Retail
+- Loyalty
+- Consumer App
+- Receipts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/checkout51-domain-security.yml
 - type: Website
-  url: https://checkout51.com
+  url: https://www.checkout51.com
+- type: Support
+  url: https://support.checkout51.com/hc/en-us
+- type: GettingStarted
+  url: https://www.checkout51.com/how-it-works
+- type: SignUp
+  url: https://www.checkout51.com/account/signup
+- type: Login
+  url: https://www.checkout51.com/account/login
+- type: TermsOfService
+  url: https://www.checkout51.com/terms
+- type: PrivacyPolicy
+  url: https://www.checkout51.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
