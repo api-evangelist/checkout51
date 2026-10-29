@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-checkout51 is a company surfaced as a portfolio company of slow-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Checkout 51 is a consumer cash-back rewards service, delivered as a free mobile app and website, that lets shoppers earn money back on everyday grocery and gas purchases. Members browse weekly offers, buy participating brands at any store, then upload a photo of their receipt to claim cash back; balances are paid out by check once they reach a $20 threshold. The company earns revenue from partner brands that fund the offers. It was added to the API Evangelist network as a Slow Ventures portfolio company; it operates a consumer app plus a partner/brands program, but publishes no public developer API, SDKs, or specifications at this time.
 
-Backed by: slow-ventures — https://checkout51.com
+**Areas:** Company · Cashback · Rewards · Grocery · Retail · Loyalty · Consumer App · Receipts
+
+## checkout51 on APIs.io
+
+Everything profiled for checkout51 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/checkout51/](https://apis.io/providers/checkout51/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Checkout51 Domain Security](https://apis.io/security/checkout51/checkout51-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.checkout51.com)
+- [Getting started](https://www.checkout51.com/how-it-works)
+- [Sign up](https://www.checkout51.com/account/signup)
+- [Support](https://support.checkout51.com/hc/en-us)
+- [Blog](https://www.checkout51.com/blog/)
+- [Terms of service](https://www.checkout51.com/terms)
+- [Privacy policy](https://www.checkout51.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/checkout51/](https://apis.io/providers/checkout51/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for checkout51: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/checkout51/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
